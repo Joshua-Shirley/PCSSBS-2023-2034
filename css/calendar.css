@@ -1,0 +1,236 @@
+
+
+div.sqs-add-to-cart-button {
+    padding: 0 !important;
+    display:block !important;
+}
+
+div.sqs-add-to-cart-button div {
+    font-size: .75em;
+    padding: 0.4em 0.2em;
+    text-align: center;
+}
+
+div.sqs-add-to-cart-button-wrapper {
+    margin: 2px !important;
+    min-width: initial !important;
+}
+
+div.grid-item div.image-container {
+    display: none;
+}
+
+div.sqs-block-product h2 {
+    text-align: center;
+    padding: 12px;
+}
+
+
+div.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 0;
+    background-color: #f6f5f5;
+    padding: 0px;
+    padding-bottom: 100px;
+}
+
+div.grid-item {
+    background-color: white;
+    padding: 4px !important;
+    margin: 4px;
+}
+
+div.grid-header {
+    border-bottom: 1px solid black;
+    background-color: #971c20;
+    color: white;
+    padding: 12px 0 !important;
+    text-align: center;
+}
+
+div.grid-header h4 {
+	padding: 0;
+	margin: 0;
+}
+
+div.peak h2 {
+    color: #971c20;
+    text-decoration: underline;
+}
+
+div.peak div.sqs-add-to-cart-button:hover {
+    background-color: grey !important;
+    color: white;
+    border-color: grey !important;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #0976b4;
+    color: #fff;
+    text-align: center;
+    padding: 12px 6px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 20;
+    top: 100%;
+    left: -19%;
+    font-weight: bold;
+}
+
+div.sqs-add-to-cart-button:hover .tooltiptext {
+    visibility: visible;
+}
+
+span.full { 
+	display: none;
+}
+
+/*  CART PAGE CHANGES */
+div.cart-row {    
+    min-height: 28px !important;
+    line-height: 1em;
+    padding: 6px 0;
+}
+
+div.cart-row-img-wrapper {
+    width: 15px !important;
+}
+
+div.cart-row-img {
+    display: none;
+    background-image: none;
+}
+
+div.cart-row-desc {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+div.cart-row:hover {
+    background-color: #caebfb;
+}
+
+div.stats {
+    background-color: #f6f5f5;
+    border: 2px solid #b4b6b5;
+    border-radius: 6px;
+    display: block;
+	min-width: 300px;
+    bottom: 40px;
+    left: 680px;
+    position: fixed;
+    z-index: 10;
+    line-height: 1.2rem;
+}
+
+div.stats-row > div {
+	display: inline-block;
+}
+
+div.stats .header {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+div.col-8 {
+	width: 66.4%;
+}
+
+div.col-6 {
+	width: 50%;
+}
+
+div.col-4 {
+	width: 33.2%;
+}
+
+div.col-3 {
+	width: 25%;
+}
+
+div.stats > div {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+div.stats .head {
+	font-weight: bold;
+}
+
+div.menu {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+div.menu div.item {
+    border-left: 1px solid black;
+    text-align: center;
+    flex: 1 1 auto;
+    position: relative;
+    padding: 10px 0;
+}
+
+div.menu div.item:first-of-type {
+    border-left: 1px solid white;
+}
+
+div.menu div.item:hover {
+    background-color: #8a2d26;
+    color: white;
+}
+
+div.menu div.item:hover a {
+    color: white;
+}
+
+button.btn {    
+    margin-bottom: 15px;
+    margin-left: 15px;
+    display: inline-block;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: #ededed;
+    color: black;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button.btn {
+    float: right;
+    background-color: #8a2c26;
+    color: whitesmoke;
+    border-color: #9e2a23;
+}
+
+@media screen and (min-width: 690px) {	
+}
+
+@media screen and (min-width: 1025px) {
+}
+
+div.scheduled {
+    background-color: #e2f2fd;
+}
+
+div.scheduled div.sqs-add-to-cart-button {
+    border-color: #0976b4;
+    color: #0976b4;
+}
+
+div.scheduled div.sqs-add-to-cart-button div {
+	color: white;
+    background-color: #0976b4;
+}

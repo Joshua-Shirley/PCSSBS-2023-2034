@@ -1,0 +1,35 @@
+{
+    "manifest_version" : 3,
+    "name" : "Park City SSBS Calendar",
+    "description" : "My extension alters the Park City Ski School scheduling calendar to look and function more like a calendar.",
+    "version" : "1.0.1",
+    "icons" : {
+        "16" : "icons/js-logo-16px.png", 
+        "32" : "icons/js-logo-32px.png",
+        "64" : "icons/js-logo-64px.png",
+        "128" : "icons/js-logo-128px.png"
+    },
+    "action" : {
+        "default_icon" : {
+            "16" : "icons/js-logo-16px.png", 
+            "32" : "icons/js-logo-32px.png",
+            "64" : "icons/js-logo-64px.png",
+            "128" : "icons/js-logo-128px.png"
+        },
+        "default_title" : "PCSSBS",
+        "default_popup" : "popup.html"
+    },  
+    "permissions" : [
+        "activeTab",
+        "scripting"
+    ],
+    "author" : "joshua_shirley@hotmail.com",
+    "content_scripts" : [
+        {
+            "matches" : ["https://www.parkcityssbs.com/*"],
+            "css" : ["css/calendar.css"],
+            "js" : ["js/schedule.js", "js/peak.js" , "js/stats.js", "js/calendar.js", "js/cart.js", "js/cartitem.js", "js/eventpage.js"]        
+        }
+    ],
+    "options_page" : "options.html"
+}
